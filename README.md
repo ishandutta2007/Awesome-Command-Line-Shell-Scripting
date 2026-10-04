@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=diccord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Command-Line-Shell-Scripting/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Command-Line-Shell-Scripting?style=flat-square" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Command-Line-Shell-Scripting/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Command-Line-Shell-Scripting?style=flat-square" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Command-Line-Shell-Scripting/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Command-Line-Shell-Scripting?style=flat-square" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Command-Line-Shell-Scripting/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Command-Line-Shell-Scripting?style=flat-square" alt="License"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -48,9 +48,9 @@ Whether you are seeking powerful POSIX-compliant shells (like Bash and Zsh), mod
 
 ## 🔓 Open-Source GitHub Projects 🌟
 
-Below is a curated list of leading open-source shell interpreters and scripting engines, **sorted by GitHub star count (descending)**. Each badge links directly to the repository's stargazers page.
+Below is a curated list of leading open-source shell interpreters and scripting engines, **sorted by GitHub Stars_Count (descending)**. Each badge links directly to the repository's stargazers page.
 
-| Repo | Description | Stars Badge |
+| Repo | Description | Stars_Badge |
 |---|---|---|
 | **[PowerShell](https://github.com/PowerShell/PowerShell)** 💙 | Microsoft's official cross-platform command-line shell and scripting language built on .NET. Features object-based pipelines and rich cmdlet libraries. | [![Stars](https://img.shields.io/github/stars/PowerShell/PowerShell?style=social&color=white)](https://github.com/PowerShell/PowerShell/stargazers) |
 | **[Nushell](https://github.com/nushell/nushell)** ⚡ | A modern shell written in Rust that treats all data as structured tables rather than text streams. Features typed pipelines and actionable error diagnostics. | [![Stars](https://img.shields.io/github/stars/nushell/nushell?style=social&color=white)](https://github.com/nushell/nushell/stargazers) |
@@ -69,9 +69,9 @@ Below is a curated list of leading open-source shell interpreters and scripting 
 
 ## 🛠️ Additional Open-Source CLI & Productivity Tools 🚀
 
-Sorted by GitHub star count (descending):
+Sorted by GitHub Stars_Count (descending):
 
-| Repo | Description | Stars Badge |
+| Repo | Description | Stars_Badge |
 |---|---|---|
 | **[The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)** 📚 | Comprehensive guide and cheat-sheet covering essential to advanced command-line mastery for Linux and macOS developers. | [![Stars](https://img.shields.io/github/stars/jlevy/the-art-of-command-line?style=social&color=white)](https://github.com/jlevy/the-art-of-command-line/stargazers) |
 | **[Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)** 🌈 | Community-driven framework for managing Zsh configurations with 300+ plugins, 140+ themes, and auto-updates. | [![Stars](https://img.shields.io/github/stars/ohmyzsh/ohmyzsh?style=social&color=white)](https://github.com/ohmyzsh/ohmyzsh/stargazers) |
@@ -87,7 +87,7 @@ Sorted by GitHub star count (descending):
 
 1. **Fork** this repository.
 2. Add your candidate shell project or SaaS tool to `README.md` following the exact table structure.
-3. Include valid GitHub link, star badge, and factual feature overview.
+3. Include valid GitHub link, Stars_Badge, and factual feature overview.
 4. Open a **Pull Request**!
 
 ---
