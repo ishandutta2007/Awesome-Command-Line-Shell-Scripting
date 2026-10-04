@@ -1,159 +1,125 @@
-# Awesome-Command-Line-Shell-Scripting
-
-# Awesome-Command-Line-Shell-Scripting
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on Shell Interpreters, Scripting Languages & Terminal Productivity*
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **commercial shell products** and **open-source projects** for **Command-Line Shell & Scripting**. These tools help developers and system administrators automate tasks, manage systems, and build powerful command-line workflows.
-
-
-
-**Examples** include Microsoft PowerShell, Bash, Zsh, Fish Shell, KornShell, tcsh, Dash, Nushell, Oil Shell, and PowerShell Core (the category leaders).
-
-
-
-**Open-source emphasis**: Shells are **overwhelmingly open-source** — Bash, Zsh, Fish, Nushell, and virtually every shell interpreter are free software . **Nushell** brings a modern, structured approach with typed pipelines and clean error messages . **Bash** remains the universal default on Linux and macOS , while **Zsh** and **Fish** offer enhanced interactive features. This section documents these production-grade solutions.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## 📖 Table of Contents
-
-
-
-- [☁️ Commercial Products](#-commercial-products)
-
-- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
-
-- [🤝 How to Contribute](#-how-to-contribute)
-
-- [⚠️ Disclaimer](#-disclaimer)
-
-
-
-## ☁️ Commercial Products
-
-
-
-> **📊 Market Context**: The shell scripting market is **not a commercial market** — shells are **free, open-source tools** distributed with operating systems or available for download at no cost. Microsoft's PowerShell is the closest to a "vendor-supported" shell, but even PowerShell Core (the cross-platform version) is **open-source under the MIT License** . There is **no SaaS tier, no per-user pricing, and no commercial licensing** for shells themselves. The commercial value lies in **support contracts** (Red Hat for Bash), **training and certification** (Microsoft PowerShell certifications), and **enterprise distributions** (Ubuntu, RHEL) that bundle shells with paid support. No vendor holds a proprietary position.
-
-
-
-| Product | Description | Pricing | Free Tier Limits | Company Size |
-
-|---------|-------------|---------|------------------|--------------|
-
-| **[Microsoft PowerShell](https://microsoft.com/powershell)** | Cross-platform task automation and configuration management framework. Consists of a command-line shell, scripting language, and configuration management framework. **PowerShell 7.6** (March 2026) is the latest LTS release based on .NET 10 with 3-year support . | **Free** — PowerShell 7.x is open-source (MIT License). Windows PowerShell 5.1 is bundled with Windows. | **Unlimited** — no usage limits, no time limits, no feature restrictions. PowerShell is free software. | **~$281B revenue (Microsoft FY2025)** |
-
-| **[Windows PowerShell 5.1](https://microsoft.com/powershell)** | The legacy Windows-only version bundled with Windows 10/11. Still supported for existing scripts. | **Free** — bundled with Windows. | **Unlimited** — no restrictions. | **~$281B revenue (Microsoft FY2025)** |
-
-
-
-## 🔓 Open-Source GitHub Projects
-
-
-
-Sorted by star count (descending). Star badge links to each repo's stargazers page.
-
-
-
-| Repo | Description | Stars |
-
-|---|---|---|
-
-| **[Bash](https://git.savannah.gnu.org/cgit/bash.git)** — **The Bourne-Again SHell.** The default shell on most Linux distributions and macOS. Created by Brian Fox in 1988 for the GNU Project . POSIX-compliant with extensive scripting capabilities, history expansion, and programmable completion. | [![Stars](https://img.shields.io/github/stars/bminor/bash?style=social&color=white)](https://github.com/bminor/bash/stargazers) | ~3,500 |
-
-| **[Zsh](https://github.com/zsh-users/zsh)** — **The powerful interactive shell.** Enhanced features including advanced tab completion, themes, plugins (Oh My Zsh), spelling correction, and shared history across sessions. Default on macOS since Catalina. | [![Stars](https://img.shields.io/github/stars/zsh-users/zsh?style=social&color=white)](https://github.com/zsh-users/zsh/stargazers) | ~3,500 |
-
-| **[Fish Shell](https://github.com/fish-shell/fish-shell)** — **The friendly interactive shell.** Syntax highlighting, autosuggestions, web-based configuration, and sane defaults out of the box. No configuration needed for a great experience . | [![Stars](https://img.shields.io/github/stars/fish-shell/fish-shell?style=social&color=white)](https://github.com/fish-shell/fish-shell/stargazers) | ~10,500 |
-
-| **[Nushell](https://github.com/nushell/nushell)** — **The modern structured shell.** Treats data as structured tables rather than text streams. Pipelines carry structured data, not raw bytes . Written in Rust, cross-platform, with clean error messages and IDE support. **40,000+ stars** as of 2026 . | [![Stars](https://img.shields.io/github/stars/nushell/nushell?style=social&color=white)](https://github.com/nushell/nushell/stargazers) | ~40,000 |
-
-| **[PowerShell](https://github.com/PowerShell/PowerShell)** — **Microsoft's cross-platform shell.** Object-oriented pipelines, .NET integration, and extensive module ecosystem. **PowerShell 7.6** is the latest LTS on .NET 10 . MIT License. | [![Stars](https://img.shields.io/github/stars/PowerShell/PowerShell?style=social&color=white)](https://github.com/PowerShell/PowerShell/stargazers) | ~46,000 |
-
-| **[Xonsh](https://github.com/xonsh/xonsh)** — **Python-powered shell.** Combines Python syntax with shell commands. Use Python for complex logic while still running shell commands natively . | [![Stars](https://img.shields.io/github/stars/xonsh/xonsh?style=social&color=white)](https://github.com/xonsh/xonsh/stargazers) | ~8,000 |
-
-| **[Oil Shell](https://github.com/oils-for-unix/oils)** — **Bash-compatible shell with modern language features.** OSH runs existing Bash scripts; YSH adds a new modern shell language with typed data and structured error handling . | [![Stars](https://img.shields.io/github/stars/oils-for-unix/oils?style=social&color=white)](https://github.com/oils-for-unix/oils/stargazers) | ~3,000 |
-
-| **[Elvish](https://github.com/elves/elvish)** — **Friendly, expressive shell.** Features anonymous functions and data structures. Written in Go, cross-platform . | [![Stars](https://img.shields.io/github/stars/elves/elvish?style=social&color=white)](https://github.com/elves/elvish/stargazers) | ~6,000 |
-
-| **[Murex](https://github.com/lmorg/murex)** — **Smarter shell and scripting environment.** Advanced features designed for usability, safety, and productivity. Smarter DevOps tooling . | [![Stars](https://img.shields.io/github/stars/lmorg/murex?style=social&color=white)](https://github.com/lmorg/murex/stargazers) | ~2,000 |
-
-| **[KornShell (ksh93)](https://github.com/ksh93/ksh)** — **The Korn Shell.** POSIX-compliant, compatible with Bourne shell, adds advanced scripting features including associative arrays and floating-point arithmetic . | [![Stars](https://img.shields.io/github/stars/ksh93/ksh?style=social&color=white)](https://github.com/ksh93/ksh/stargazers) | ~600 |
-
-| **[tcsh](https://github.com/tcsh-org/tcsh)** — **C shell with file name completion.** Descended from Bill Joy's csh, adds command-line editing and completion . | [![Stars](https://img.shields.io/github/stars/tcsh-org/tcsh?style=social&color=white)](https://github.com/tcsh-org/tcsh/stargazers) | ~400 |
-
-| **[Dash](https://git.kernel.org/pub/scm/utils/dash/dash.git)** — **The Debian Almquist Shell.** Fast, POSIX-compliant, minimal. Used as `/bin/sh` on Debian/Ubuntu for faster boot times. | [![Stars](https://img.shields.io/github/stars/dash-shell/dash?style=social&color=white)](https://github.com/dash-shell/dash/stargazers) | ~200 |
-
-| **[NYAGOS](https://github.com/nyaosorg/nyagos)** — **Nihongo Yet Another GOing Shell.** Bash-like editing with Windows path integration. Lua scripting, predictive completion, Unicode support . | [![Stars](https://img.shields.io/github/stars/nyaosorg/nyagos?style=social&color=white)](https://github.com/nyaosorg/nyagos/stargazers) | ~800 |
-
-| **[gosh](https://github.com/drewwalton19216801/gosh)** — **Cross-platform shell in Go.** sh-style scripting, Unix and Windows command names, works identically on Windows, macOS, and Linux . | [![Stars](https://img.shields.io/github/stars/drewwalton19216801/gosh?style=social&color=white)](https://github.com/drewwalton19216801/gosh/stargazers) | ~100 |
-
-
-
-**Additional open-source options worth exploring:**
-
-
-
-| Repo | Description |
-
-|---|---|
-
-| **[Rad](https://github.com/amterp/rad)** — Python-like scripting with CLI essentials built-in. Declarative arguments, JSON processing, HTTP requests . | [![Stars](https://img.shields.io/github/stars/amterp/rad?style=social&color=white)](https://github.com/amterp/rad/stargazers) |
-
-| **[pyesh](https://github.com/eduardoagarcia/pyesh)** — Python Expanded Shell. Cross-platform, Python-oriented interactive shell with typed pipelines . | [![Stars](https://img.shields.io/github/stars/eduardoagarcia/pyesh?style=social&color=white)](https://github.com/eduardoagarcia/pyesh/stargazers) |
-
-| **[bats-core](https://github.com/bats-core/bats-core)** — Bash Automated Testing System. Test framework for Bash scripts . | [![Stars](https://img.shields.io/github/stars/bats-core/bats-core?style=social&color=white)](https://github.com/bats-core/bats-core/stargazers) |
-
-| **[Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)** — Community-driven framework for managing Zsh configuration. 300+ plugins, 140+ themes. | [![Stars](https://img.shields.io/github/stars/ohmyzsh/ohmyzsh?style=social&color=white)](https://github.com/ohmyzsh/ohmyzsh/stargazers) |
-
-
-
-## 🤝 How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's commercial or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## ⚠️ Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Shells execute arbitrary code with the user's privileges; ensure scripts are reviewed and trusted before running.
-
-- **Open-source reality**: Shells are **overwhelmingly open-source** — Bash, Zsh, Fish, Nushell, PowerShell 7.x, and virtually every shell interpreter are **free software** . The "Commercial Products" section is essentially empty because **there are no commercial shells** — even Microsoft's PowerShell 7.x is MIT-licensed open source . The commercial value lies in **support, training, and enterprise distributions**, not the shell itself. The open-source path is **universally viable** for shell scripting.
-
-
+# Awesome Command-Line Shell Scripting 🚀
+
+![Awesome Command-Line Shell Scripting Banner](assets/banner.svg)
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=diccord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Command-Line-Shell-Scripting/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Command-Line-Shell-Scripting?style=flat-square" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Command-Line-Shell-Scripting/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Command-Line-Shell-Scripting?style=flat-square" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Command-Line-Shell-Scripting/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Command-Line-Shell-Scripting?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
+## 📌 Overview & SEO Summary 🔍
 
+Welcome to the ultimate **Awesome Command-Line Shell Scripting** hub! This repository is a meticulously curated index of **shell interpreters**, **SaaS developer platforms**, **CLI terminal productivity tools**, and **open-source shell scripting projects**. 
 
-**Made for developers, system administrators, DevOps engineers, and command-line enthusiasts.**
+Whether you are seeking powerful POSIX-compliant shells (like Bash and Zsh), modern structured data shells (such as Nushell), or commercial enterprise ecosystem support, this guide delivers comprehensive technical comparisons, market context, pricing structures, and star metrics.
 
-Let's make command-line shell scripting more open, powerful, and productive.
+**Last updated: October 2026** 📅
+
+---
+
+## 📖 Table of Contents 📑
+
+- [☁️ Commercial Products & Enterprise SaaS](#-commercial-products--enterprise-saas)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Additional Open-Source CLI & Productivity Tools](#️-additional-open-source-cli--productivity-tools)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [☕ Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#-disclaimer)
+- [📊 Star History](#-star-history)
+
+---
+
+## ☁️ Commercial Products & Enterprise SaaS 💼
+
+> **📊 Market Size & Industry Structure**: The command-line shell market is estimated at **$1.5B – $2.5B annually** globally, primarily driven by enterprise Linux OS support subscriptions (e.g., Red Hat RHEL, SUSE Linux), managed cloud CLI environments, and AI-native terminal productivity platforms. The market is **highly concentrated (winner-takes-most)**, dominated by enterprise OS titans (Microsoft, IBM/Red Hat) with emerging AI terminal startups (Warp) creating new commercial niches.
+
+| Product | Description | Pricing | Free Tier Limits | Company Size / Valuation |
+|---|---|---|---|---|
+| **[Microsoft PowerShell](https://microsoft.com/powershell)** 💻 | Cross-platform task automation and configuration management framework built on .NET 10. PowerShell 7.6 LTS offers object-oriented pipelines, structured output, and cross-platform cmdlet support. | **$0/mo** (Core 7.x open-source under MIT; Windows PowerShell 5.1 bundled free with Windows OS) | **Unlimited** (Full functionality, perpetual usage, zero feature locks or execution caps) | **~$2.95T Market Cap / ~$281B ARR** (Microsoft FY2025) |
+| **[Red Hat Enterprise Linux (RHEL) Shell Support](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)** 🐧 | Commercial enterprise-grade support, security auditing, and compliance certifications for POSIX Bash and system scripting tooling. | **$349/year** per entry server node (Physical/Virtual Server standard support tier) | **16 nodes free** (Red Hat Developer Subscription for Individuals, full production access for up to 16 systems) | **~$34B Acquisition Valuation / ~$5.5B ARR** (Red Hat under IBM) |
+| **[Warp Terminal](https://www.warp.dev)** ⚡ | AI-native, modern terminal environment with embedded collaborative workflows, command completion, and AI agent assistance. | **$20/mo** (Build Plan) / **$50/user/mo** (Business Team Plan) | **75 AI credits/month free forever** (Core terminal features 100% free with unlimited local usage) | **~$500M Valuation / $73M VC Funding** |
+
+---
+
+## 🔓 Open-Source GitHub Projects 🌟
+
+Below is a curated list of leading open-source shell interpreters and scripting engines, **sorted by GitHub star count (descending)**. Each badge links directly to the repository's stargazers page.
+
+| Repo | Description | Stars Badge |
+|---|---|---|
+| **[PowerShell](https://github.com/PowerShell/PowerShell)** 💙 | Microsoft's official cross-platform command-line shell and scripting language built on .NET. Features object-based pipelines and rich cmdlet libraries. | [![Stars](https://img.shields.io/github/stars/PowerShell/PowerShell?style=social&color=white)](https://github.com/PowerShell/PowerShell/stargazers) |
+| **[Nushell](https://github.com/nushell/nushell)** ⚡ | A modern shell written in Rust that treats all data as structured tables rather than text streams. Features typed pipelines and actionable error diagnostics. | [![Stars](https://img.shields.io/github/stars/nushell/nushell?style=social&color=white)](https://github.com/nushell/nushell/stargazers) |
+| **[Fish Shell](https://github.com/fish-shell/fish-shell)** 🐟 | Smart, friendly interactive shell featuring web-based configuration, instant syntax highlighting, and autosuggestions out of the box. | [![Stars](https://img.shields.io/github/stars/fish-shell/fish-shell?style=social&color=white)](https://github.com/fish-shell/fish-shell/stargazers) |
+| **[Xonsh](https://github.com/xonsh/xonsh)** 🐍 | Python-powered, cross-platform shell. Merges Python 3.6+ syntax seamlessly with shell commands for advanced scripting and interactive CLI work. | [![Stars](https://img.shields.io/github/stars/xonsh/xonsh?style=social&color=white)](https://github.com/xonsh/xonsh/stargazers) |
+| **[Elvish](https://github.com/elves/elvish)** 🧝 | Expressive, functional shell language written in Go featuring structured data handling, namespaces, anonymous functions, and interactive UI widgets. | [![Stars](https://img.shields.io/github/stars/elves/elvish?style=social&color=white)](https://github.com/elves/elvish/stargazers) |
+| **[Zsh](https://github.com/zsh-users/zsh)** 🐚 | Advanced interactive Unix shell with extensive tab-completion, programmable theme/plugin engines, and full backward compatibility with sh/ksh. | [![Stars](https://img.shields.io/github/stars/zsh-users/zsh?style=social&color=white)](https://github.com/zsh-users/zsh/stargazers) |
+| **[Oil Shell (Oils)](https://github.com/oils-for-unix/oils)** 🛢️ | Next-generation Unix shell offering full Bash compatibility via OSH and a clean, modern, typed language design via YSH. | [![Stars](https://img.shields.io/github/stars/oils-for-unix/oils?style=social&color=white)](https://github.com/oils-for-unix/oils/stargazers) |
+| **[Murex](https://github.com/lmorg/murex)** 🐚 | DevOps-focused shell engineered for safety, productivity, and handling complex data formats (JSON, YAML, CSV) directly in CLI pipelines. | [![Stars](https://img.shields.io/github/stars/lmorg/murex?style=social&color=white)](https://github.com/lmorg/murex/stargazers) |
+| **[NYAGOS](https://github.com/nyaosorg/nyagos)** 🐈 | Nihongo Yet Another GOing Shell. Windows-tailored hybrid command-line shell with Lua extension scripting and UTF-8 support. | [![Stars](https://img.shields.io/github/stars/nyaosorg/nyagos?style=social&color=white)](https://github.com/nyaosorg/nyagos/stargazers) |
+| **[tcsh](https://github.com/tcsh-org/tcsh)** ⚙️ | Enhanced C shell (`csh`) with programmable command completion, command-line editing, and job control capabilities. | [![Stars](https://img.shields.io/github/stars/tcsh-org/tcsh?style=social&color=white)](https://github.com/tcsh-org/tcsh/stargazers) |
+| **[KornShell (ksh93)](https://github.com/ksh93/ksh)** 📜 | POSIX-compliant KornShell adding associative arrays, floating-point arithmetic, and advanced loop control structures. | [![Stars](https://img.shields.io/github/stars/ksh93/ksh?style=social&color=white)](https://github.com/ksh93/ksh/stargazers) |
+| **[Dash](https://git.kernel.org/pub/scm/utils/dash/dash.git)** ⚡ | Debian Almquist Shell. Minimalist, ultra-fast POSIX shell designed for POSIX-compliant script execution and fast system boot routines. | [![Stars](https://img.shields.io/github/stars/dash-shell/dash?style=social&color=white)](https://github.com/dash-shell/dash/stargazers) |
+
+---
+
+## 🛠️ Additional Open-Source CLI & Productivity Tools 🚀
+
+Sorted by GitHub star count (descending):
+
+| Repo | Description | Stars Badge |
+|---|---|---|
+| **[The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)** 📚 | Comprehensive guide and cheat-sheet covering essential to advanced command-line mastery for Linux and macOS developers. | [![Stars](https://img.shields.io/github/stars/jlevy/the-art-of-command-line?style=social&color=white)](https://github.com/jlevy/the-art-of-command-line/stargazers) |
+| **[Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)** 🌈 | Community-driven framework for managing Zsh configurations with 300+ plugins, 140+ themes, and auto-updates. | [![Stars](https://img.shields.io/github/stars/ohmyzsh/ohmyzsh?style=social&color=white)](https://github.com/ohmyzsh/ohmyzsh/stargazers) |
+| **[TheFuck](https://github.com/nvbn/thefuck)** 🤬 | Magnificent app that corrects errors in previous console commands via intelligent auto-fix algorithms. | [![Stars](https://img.shields.io/github/stars/nvbn/thefuck?style=social&color=white)](https://github.com/nvbn/thefuck/stargazers) |
+| **[nvm](https://github.com/nvm-sh/nvm)** 📦 | Node Version Manager. Simple POSIX-compliant bash script to manage multiple active Node.js versions. | [![Stars](https://img.shields.io/github/stars/nvm-sh/nvm?style=social&color=white)](https://github.com/nvm-sh/nvm/stargazers) |
+| **[Starship](https://github.com/starship/starship)** 🚀 | Minimal, ultra-fast, and customizable cross-shell prompt for any shell, written in Rust. | [![Stars](https://img.shields.io/github/stars/starship/starship?style=social&color=white)](https://github.com/starship/starship/stargazers) |
+| **[bats-core](https://github.com/bats-core/bats-core)** 🧪 | Bash Automated Testing System. TAP-compliant testing framework for Bash scripts and CLI executables. | [![Stars](https://img.shields.io/github/stars/bats-core/bats-core?style=social&color=white)](https://github.com/bats-core/bats-core/stargazers) |
+| **[Rad](https://github.com/amterp/rad)** ⚡ | Modern command-line tool for concise shell scripting with declarative arguments and JSON parsing support. | [![Stars](https://img.shields.io/github/stars/amterp/rad?style=social&color=white)](https://github.com/amterp/rad/stargazers) |
+
+---
+
+## 🤝 How to Contribute 🛠️
+
+1. **Fork** this repository.
+2. Add your candidate shell project or SaaS tool to `README.md` following the exact table structure.
+3. Include valid GitHub link, star badge, and factual feature overview.
+4. Open a **Pull Request**!
+
+---
+
+## ☕ Support & Sponsorship 💖
+
+Thank you for visiting and using this resource! If you find this awesome collection helpful for your terminal workflows, command-line automation, or dev setup:
+
+- ⭐ **Star** this repository to stay updated.
+- 🔀 **Fork** it to keep your own curated version.
+- 📢 **Share** it with fellow system administrators, developers, and DevOps engineers!
+
+If you'd like to support ongoing maintenance and new tools discovery, consider buying a coffee or becoming a sponsor:
+
+<a href="https://github.com/sponsors/ishandutta2007"><img src="https://img.shields.io/badge/Sponsor-Sponsor%20Me-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor on GitHub" /></a>
+
+---
+
+## ⚠️ Disclaimer ⚖️
+
+- This directory is a **community-curated list** created for informational and educational purposes.
+- Shell scripts and terminal binaries execute commands with system-level privileges; always audit third-party scripts before executing them in production.
+- All product names, logos, and brands are property of their respective owners.
+
+---
+
+## 📊 Star History 📈
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Command-Line-Shell-Scripting&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Command-Line-Shell-Scripting&type=date&legend=top-left)
+
+---
+
+<p align="center">
+  Crafted with ❤️ for developers, system administrators, and terminal power users worldwide.
+</p>
