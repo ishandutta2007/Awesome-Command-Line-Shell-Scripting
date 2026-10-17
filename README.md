@@ -80,6 +80,7 @@ Sorted by GitHub Stars_Count (descending):
 | **[Starship](https://github.com/starship/starship)** 🚀 | Minimal, ultra-fast, and customizable cross-shell prompt for any shell, written in Rust. | [![Stars](https://img.shields.io/github/stars/starship/starship?style=social&color=white)](https://github.com/starship/starship/stargazers) |
 | **[bats-core](https://github.com/bats-core/bats-core)** 🧪 | Bash Automated Testing System. TAP-compliant testing framework for Bash scripts and CLI executables. | [![Stars](https://img.shields.io/github/stars/bats-core/bats-core?style=social&color=white)](https://github.com/bats-core/bats-core/stargazers) |
 | **[Rad](https://github.com/amterp/rad)** ⚡ | Modern command-line tool for concise shell scripting with declarative arguments and JSON parsing support. | [![Stars](https://img.shields.io/github/stars/amterp/rad?style=social&color=white)](https://github.com/amterp/rad/stargazers) |
+| **[vhr-bench](https://github.com/vpshostreview/vhr-vps-benchmark)** 📊 | Single-file Bash script that benchmarks a Linux server in about a minute: sysbench CPU and memory plus fio 4k random IOPS. Sends nothing anywhere without an upload token. | [![Stars](https://img.shields.io/github/stars/vpshostreview/vhr-vps-benchmark?style=social&color=white)](https://github.com/vpshostreview/vhr-vps-benchmark/stargazers) |
 
 ---
 
